@@ -11,6 +11,7 @@ import HomePage from './pages/HomePage/HomePage';
 import ContactPage from './pages/ContactPage/ContactPage';
 import AboutPage from './pages/AboutPage/AboutPage';
 import DrinkPage from './pages/DrinkPage/DrinkPage';
+import CategoryPage from './pages/CategoryPage/CategoryPage';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,7 @@ function App() {
         <Route path='/contact' element={<ContactPage />}/>
         <Route path='/about' element={<AboutPage />}/>
         <Route path='/drink/:id' element={<DrinkPage />}/>
+        <Route path='/category/:categoryId' element={<CategoryPage />}/>
       </Routes>
 
       <Header> 
