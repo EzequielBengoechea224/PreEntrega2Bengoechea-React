@@ -36,7 +36,9 @@ const ItemListContainer = () => {
             })}
             {console.log(drinks)}
         </div>
-    ) : ( <div style={{display:"flex", alignItems:"center", justifyContent:"center",marginBottom:"2vh"}}> <Spinner /> </div>)}
+    ) : ( <div style={{display:"flex", alignItems:"center", justifyContent:"center",marginBottom:"2vh"}}>
+            <Spinner /> 
+         </div>)}
     </div>
     )
 }
